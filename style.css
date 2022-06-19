@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-area{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    position: relative;
+}
+
+body{
+    background-image: url(air.png);
+    height: 80vh;
+    -webkit-background-size : cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+ul{
+    float: right;
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    /* text-transform: uppercase; */
+    /* font-size: 25px; */
+}
+
+ul li a:hover{
+   color: brown;
+   cursor: pointer;
+}
+
+ul li a:active{
+    text-decoration: none;
+}
+
+.border{
+    width: 17%;
+    height: 728px;
+    border: 1px solid #F68E44;
+    background-color: #F68E44;
+    position: absolute;
+    margin-left: 1273px;
+    /* margin-right: auto; */
+}
+
+.login{
+    position: absolute;
+    font-family: Segoe UI;
+    border: 1px solid blue;
+    border-radius: 12px;
+    width: 350px;
+    height: 360px;
+    background-color: #ECF2F6;
+    margin: 5%;
+    padding: 20px; 
+    margin-left: 70%;
+}
+
+.title span{
+    padding: 50px;
+    font-size: 20px;
+}
+
+.subtitle span{
+    padding: 10px;
+}
+
+.username{
+    padding: 40px 90px;
+    width: 500px;
+}
+
+.username i{
+    position: absolute;
+}
+
+.userinput{
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+.fa{
+    padding-top: 10px;
+    color: black;
+    min-width: 50px;
+    text-align: center;
+
+}
+
+.password{
+    padding-left: 90px;
+    width: 500px;
+}
+
+.passinput{
+    padding: 10px;
+    text-align: center;
+}
+
+.password i{
+    position: absolute;
+}
+
+.forgot img{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.auth{
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.auth ul li{
+    list-style: none;
+}
+
+.auth ul li .remember{
+    padding-right: 20px;
+}
+
+.submit{
+    /* padding-left: 70px; */
+    padding-top: 30px;
+}
+
+.submit button{
+    height: 35px;
+    width: 25vh;
+    border: 1px solid #E9EBEC;
+    background-color: #749AF1;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 20px;
+    font-style:
+    padding: 5px;
+}
+
+.submit button:hover{
+    background-color: #F68E44;
+    color: #749AF1;
+    cursor: pointer;
+}
+
